@@ -27,7 +27,7 @@ ul {
 }
 
 .twothirds {
-	width: 66%;
+	width: 500px;
 }
 
 .top-movie {
@@ -40,6 +40,14 @@ ul {
 
 .top-movie h1, h2 {
 	position: absolute;
+}
+
+.top-movie h1 {
+	margin-top: 30%;
+}
+
+.top-movie h2 {
+	margin-top: 35%;
 }
 
 video {
