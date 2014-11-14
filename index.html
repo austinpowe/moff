@@ -13,7 +13,7 @@
 		<a href="http://amazon.com" target="_blank">BUY</a>
 	</div>
 
-<div class="intro-slide">
+<div class="top-movie" id="movie">
 
 	<img src="./assets/moff-logo.png" alt="Moff" id="logo" />
 
@@ -75,6 +75,30 @@
 
 	<div class="clearer"></div>
 </div>
+
+<!--FOR THE VIDEO AT THE TOP-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.colorbox.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+<script>
+$(function(){
+  var w = $(window).width();
+  var x = 768;
+  if (w > x) {
+
+    $('#movie').append("<video autoplay='' loop='' muted=''><source src='http://olein-design.com/moff/video/moff_concept-heavylight.webm'><source src='http://olein-design.com/moff/video/moff_concept-heavylight.mp4'><source src='http://olein-design.com/moff/video/moff_concept-heavylight.ogv'></video>");
+
+    $('p.open', 'p.close').remove();
+  }
+
+  $(".vimeo").colorbox({iframe:true, innerWidth:640, innerHeight:409});
+});
+
+
+</script>
+
+<!--END: FOR THE VIDEO AT THE TOP-->
 
 </body>
 </html>

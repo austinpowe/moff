@@ -1,3 +1,5 @@
+/* TEXT STYLING */
+
 body {
 	font-family: 'PT Sans Caption';
 	color: #FFF;
@@ -18,6 +20,8 @@ ul {
 	margin-bottom: 1em;
 }
 
+/* INTRO SECTION */
+
 .wrapper {
 	margin: 3% 5% 5% 5%;
 }
@@ -26,24 +30,32 @@ ul {
 	width: 66%;
 }
 
-.thirdcolumns {
-	width:25%;
-	margin-left: 6%;
-	display: inline-block;
-	float: left;
+.top-movie {
+  position: relative;
+}
+.top-movie video {
+  width: 100%;
+  z-index: -100;
 }
 
-.fiddypercentcolumn {
-	width:35%;
-	margin-left: 6%;
-	display: inline-block;
-	float: left;
+.top-movie h1, h2 {
+	position: absolute;
 }
 
-.intro-slide {
-  background: url('../assets/play1.png');
-  background-size: cover;
-  padding: 5% 5% 5% 5%;
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+#logo {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 25%;
+	position: absolute;
+	margin-top: -5%;
+	left: 0;
+	right: 0;
 }
 
 #downbutton {
@@ -54,6 +66,15 @@ ul {
 #downbutton a {
 	text-decoration: none;
 	color: #ea5404;
+}
+
+/* THREE IMAGES 'HOW' SECTION */
+
+.thirdcolumns {
+	width:25%;
+	margin-left: 6%;
+	display: inline-block;
+	float: left;
 }
 
 .how-slide {
@@ -71,12 +92,13 @@ ul {
 	clear: both;
 }
 
-#logo {
-	margin-left: auto;
-	margin-right: auto;
-	width: 25%;
-	display: block;
-	margin-top: -10%;
+/* PRODUCT SECTION */
+
+.fiddypercentcolumn {
+	width:35%;
+	margin-left: 6%;
+	display: inline-block;
+	float: left;
 }
 
 .product-slide {
@@ -105,6 +127,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	margin-right: auto;
 	display: block;
 }
+
+/* FLOATING BUY BUTTON */
 
 #buybutton {
   border: 2px solid #FFFFFF;
