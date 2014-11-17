@@ -7,12 +7,12 @@ body {
 
 h1 {
 	font-weight: 700;
-	font-size: 62px;
+	font-size: 52px;
 }
 
 h2 {
 	font-weight: 300;
-	font-size: 28px;
+	font-size: 24px;
 }
 
 ul {
@@ -23,7 +23,7 @@ ul {
 /* INTRO SECTION */
 
 .wrapper {
-	margin: 3% 5% 5% 5%;
+	margin: 0;
 }
 
 .twothirds {
@@ -43,11 +43,21 @@ ul {
 }
 
 .top-movie h1 {
-	margin-top: 30%;
+	margin-top: 34%;
+	margin-left: 5%;
 }
 
 .top-movie h2 {
-	margin-top: 35%;
+	margin-top: 39%;
+	margin-right: 35%;
+	margin-left: 5%;
+}
+
+.top-movie p {
+	margin-top: 47%;
+	margin-right: auto;
+	margin-left: 50%;
+	font-size: 60px;
 }
 
 video {
@@ -66,9 +76,35 @@ video {
 	right: 0;
 }
 
+#fullvideobutton {
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  border-radius: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 12px;
+  margin-top: 45%;
+  margin-left: 5%;
+  position: absolute;
+  text-decoration: none;
+}
+
+#fullvideobutton a {
+  color: #FFFFFF;
+}
+
+#fullvideobutton a:hover {
+  color: #b2d236;
+  text-decoration: underline;
+}
+
 #downbutton {
-	text-align: center;
-	margin-bottom: -5%;
+  	margin-left: auto;
+  	margin-right: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
 }
 
 #downbutton a {
@@ -77,6 +113,10 @@ video {
 }
 
 /* THREE IMAGES 'HOW' SECTION */
+
+.how-slide h2 {
+	position: relative;
+}
 
 .thirdcolumns {
 	width:25%;
@@ -131,9 +171,39 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .product-image {
 	width: 40%;
-	margin-left: auto;
-	margin-right: auto;
+	margin-right: 6%;
 	display: block;
+	float: right;
+}
+
+.price {
+	width: 40%;
+}
+
+/* FRIENDS SECTION */
+
+.friends-slide {
+  background-color: #449d44;
+  background-size: cover;
+  padding: 5% 5% 5% 6%;
+}
+
+.quartercolumns {
+	width:19%;
+	margin-left: 4%;
+	display: inline-block;
+	float: left;
+	text-align: center;
+}
+
+.friends-slide h2 {
+	position: relative;
+	font-weight: 300;
+}
+
+.friend-images {
+	width: 80%;
+	padding-top: 1em;
 }
 
 /* FLOATING BUY BUTTON */
@@ -145,7 +215,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   border-radius: 10px;
   font-weight:700;
   font-size: 28px;
-  text-align: left;
+  text-align: center;
   padding: 12px;
   float:right;
   position:fixed;
