@@ -46,9 +46,7 @@ ul {
 }
 
 .top-movie p {
-	margin-top: 3em;
-	margin-left: 77%;
-	font-size: 60px;
+	margin-top: 1em;
 }
 
 video {
@@ -138,6 +136,22 @@ video {
 	padding: 5% 5% 5% 5%;
 }
 
+.contact-form {
+	margin-top: 3em;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contact-form a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.contact-form h2, p {
+	position: relative;
+}
+
 /* PRODUCT SECTION */
 
 .fiddypercentcolumn {
@@ -181,15 +195,35 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	margin-top: 1em;
 }
 
+.price a {
+	font-size: 18px;
+}
+
 .product-buybutton {
-  border: 3px solid #fff;
-  color: #ea5404;
-  background-color: #A2005f;
-  border-radius: 10px;
-  font-weight: 300;
-  font-size: 28px;
-  text-align: center;
-  padding: 12px;
+	border: 3px solid #fff;
+	border-radius: 10px;
+	font-weight: 300;
+	font-size: 28px;
+	text-align: center;
+	padding: 4px;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+
+	-webkit-box-shadow: 6px 6px 50px -4px rgba(0,0,0,0.46);
+  	-moz-box-shadow: 6px 6px 50px -4px rgba(0,0,0,0.46);
+  	box-shadow: 6px 6px 50px -4px rgba(0,0,0,0.46);
+
+	background: #a2005f; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIyJSIgc3RvcC1jb2xvcj0iI2EyMDA1ZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjU5JSIgc3RvcC1jb2xvcj0iIzY2MDAzYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0OTAwMjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #a2005f 2%, #66003b 59%, #490029 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#a2005f), color-stop(59%,#66003b), color-stop(100%,#490029)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #a2005f 2%,#66003b 59%,#490029 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #a2005f 2%,#66003b 59%,#490029 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #a2005f 2%,#66003b 59%,#490029 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #a2005f 2%,#66003b 59%,#490029 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a2005f', endColorstr='#490029',GradientType=0 ); /* IE6-8 */
 }
 
 .product-buybutton a {
@@ -197,6 +231,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	color: #fff;
 }
 
+small, sub, sup { font-size: .53em;}
+sub             { vertical-align: sub }
+sup             { vertical-align: super }
 
 /* FRIENDS SECTION */
 
@@ -230,39 +267,67 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	padding-top: 1em;
 }
 
-.footer {
-	border-top: 2px solid #fff;
-	margin-left: 5%;
-	margin-right: 6%;
-	margin-top: 10%;
+/* FOOTER SECTION */
+
+.footer-slide {
+	background-color: #354935;
+  	background-size: cover;
+  	padding: 5% 5% 5% 6%;
+}
+
+.footer-slide h2 {
+	position: relative;
+}
+
+.footer-slide .thirdcolumns {
+	border-right: 2px solid #fff;
+	width: 18%;
+}
+
+.secondthirdcolumns {
+	width:25%;
+	margin-left: 2%;
+	display: inline-block;
+	float: left;
 }
 
 .footer-logo {
-	width: 60%;
-	margin-top: 2em;
+	width: 70%;
 	margin-bottom: 1em;
 }
 
-.social-links {
-	margin-top: 2em;
+.social-icons {
+	width: 10%;
 }
 
-.social-links ul {
+.links {
+	margin-left: 5%;
+}
+
+.links ul {
 	margin: .25em;
+	color: #fff;
+	font-size: 12px;
+}
+
+.links a {
+	text-decoration: none;
 	color: #fff;
 }
 
+.links a:hover {
+	color: #ea5404;
+}
 
 
 /* FLOATING BUY BUTTON */
 
 #buybutton {
-  border: 3px solid #fff;
+  border: 2px solid #fff;
   color: #ea5404;
-  background-color: #A2005f;
   border-radius: 10px;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 24px;
   text-align: center;
   padding: 12px;
   float:right;
@@ -273,6 +338,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   -webkit-box-shadow: 6px 6px 50px -4px rgba(0,0,0,0.76);
   -moz-box-shadow: 6px 6px 50px -4px rgba(0,0,0,0.76);
   box-shadow: 6px 6px 50px -4px rgba(0,0,0,0.76);
+background: #a2005f; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIyJSIgc3RvcC1jb2xvcj0iI2EyMDA1ZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjU5JSIgc3RvcC1jb2xvcj0iIzY2MDAzYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0OTAwMjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #a2005f 2%, #66003b 59%, #490029 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#a2005f), color-stop(59%,#66003b), color-stop(100%,#490029)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #a2005f 2%,#66003b 59%,#490029 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #a2005f 2%,#66003b 59%,#490029 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #a2005f 2%,#66003b 59%,#490029 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #a2005f 2%,#66003b 59%,#490029 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a2005f', endColorstr='#490029',GradientType=0 ); /* IE6-8 */
 }
 
 #buybutton a {
@@ -288,8 +363,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   -webkit-box-shadow: 6px 6px 50px -4px rgba(234,84,4,0.76);
   -moz-box-shadow: 6px 6px 50px -4px rgba(234,84,4,0.76);
   box-shadow: 6px 6px 50px -4px rgba(234,84,4,0.76);
-}
-
-.amazon {
-	font-size: 10px;
 }
