@@ -7,6 +7,7 @@ body {
 h1 {
 	font-weight: 700;
 	font-size: 52px;
+	line-height: 1em;
 }
 
 h2 {
@@ -47,6 +48,10 @@ ul {
 
 .top-movie p {
 	margin-top: 1em;
+}
+
+.top-movie h1, h2, p {
+	text-shadow: 1px 1px 10px rgba(0,0,0,.45);
 }
 
 video {
@@ -138,9 +143,10 @@ video {
 
 .contact-form {
 	margin-top: 3em;
-	width: 50%;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
 }
 
 .contact-form a {
