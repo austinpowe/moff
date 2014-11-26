@@ -147,6 +147,28 @@ video {
 	padding: 5% 5% 5% 5%;
 }
 
+.text-faq {
+	padding: 0% 6% 5% 6%;
+}
+
+.text-faq .answer {
+	margin-left: 2em;
+	margin-top: .5em;
+}
+
+.text-faq h2, p {
+	position: relative;
+}
+
+.text-faq h2 {
+		margin-top: 1em;
+}
+
+.text-faq a {
+	text-decoration: none;
+	color: #fff;
+}
+
 .contact-form {
 	margin-top: 3em;
 	width: 80%;
@@ -418,6 +440,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a2005f', end
     	.product-side-image-mobile {
     		display: none;
     	}
+
+    	.text-faq {
+    		display: none;
+    	}
     }
 
 	/* Large Devices, Wide Screens */
@@ -522,6 +548,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a2005f', end
 			list-style-type: none;
 		}
 
+		.faq-video {
+			display: none;
+		}
+
+		.contact-form {
+			margin-left: 6%;
+			text-align: left;
+		}
+
+		.contact-form a {
+			font-size: 12px;
+		}
 
     }
 

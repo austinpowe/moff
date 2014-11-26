@@ -100,14 +100,69 @@
 </div>
 
 <div class="faq-slide">
-	<video controls style="width:40%;height:40%px; margin-right:10%; margin-left:6%" poster="./assets/faq1.png">
+
+
+	<div class="text-faq">
+
+		<a href="javascript:ReverseDisplay('answer1')" class="question">
+			<h2>Is it hypoallergenic?</h2>
+		</a>
+
+		<div id="answer1" style="display:none;">
+			<p class="answer">Yes.</p>
+		</div>
+
+		<a href="javascript:ReverseDisplay('answer2')" class="question">
+			<h2>Is it hypoallergenic?</h2>
+		</a>
+
+		<div id="answer2" style="display:none;">
+			<p class="answer">Yes.</p>
+		</div>
+
+		<a href="javascript:ReverseDisplay('answer3')" class="question">
+			<h2>Is it hypoallergenic?</h2>
+		</a>
+
+		<div id="answer3" style="display:none;">
+			<p class="answer">Yes.</p>
+		</div>
+
+		<a href="javascript:ReverseDisplay('answer4')" class="question">
+			<h2>Is it hypoallergenic?</h2>
+		</a>
+
+		<div id="answer4" style="display:none;">
+			<p class="answer">Yes.</p>
+		</div>
+
+		<a href="javascript:ReverseDisplay('answer5')" class="question">
+			<h2>Is it hypoallergenic?</h2>
+		</a>
+
+		<div id="answer5" style="display:none;">
+			<p class="answer">Yes.</p>
+		</div>
+
+		<a href="javascript:ReverseDisplay('answer6')" class="question">
+			<h2>Is it hypoallergenic?</h2>
+		</a>
+
+		<div id="answer6" style="display:none;">
+			<p class="answer">Yes.</p>
+		</div>
+
+	</div>
+
+
+	<video controls style="width:40%;height:40%px; margin-right:10%; margin-left:6%" poster="./assets/faq1.png" class="faq-video">
 		<source src="./assets/vine.mp4"
 			type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
 		<source src="./assets/vine.webm"
 			type='video/webm; codecs="vp8, vorbis"' />
 		</video>
 
-		<video controls style="width:40%;height:40%px;" poster="./assets/faq4.png">
+		<video controls style="width:40%;height:40%px;" poster="./assets/faq4.png" class="faq-video">
 		<source src="./assets/vine.mp4"
 			type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
 			<source src="./assets/vine.webm"
@@ -116,14 +171,30 @@
 
 		<div class="clearer" style="margin-top: 5%"></div>
 
-		<video controls style="width:40%;height:40%px; margin-right:10%; margin-left:6%" poster="./assets/faq3.png">
+		<video controls style="width:40%;height:40%px; margin-right:10%; margin-left:6%" poster="./assets/faq3.png" class="faq-video">
 		<source src="./assets/vine.mp4"
 			type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
 			<source src="./assets/vine.webm"
 			type='video/webm; codecs="vp8, vorbis"' />
 		</video>
 
-		<video controls style="width:40%;height:40%px;" poster="./assets/faq2.png">
+		<video controls style="width:40%;height:40%px;" poster="./assets/faq2.png" class="faq-video">
+		<source src="./assets/vine.mp4"
+			type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+			<source src="./assets/vine.webm"
+			type='video/webm; codecs="vp8, vorbis"' />
+		</video>
+
+		<div class="clearer" style="margin-top: 5%"></div>
+
+		<video controls style="width:40%;height:40%px; margin-right:10%; margin-left:6%" poster="./assets/faq3.png" class="faq-video">
+		<source src="./assets/vine.mp4"
+			type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+			<source src="./assets/vine.webm"
+			type='video/webm; codecs="vp8, vorbis"' />
+		</video>
+
+		<video controls style="width:40%;height:40%px;" poster="./assets/faq2.png" class="faq-video">
 		<source src="./assets/vine.mp4"
 			type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
 			<source src="./assets/vine.webm"
@@ -281,7 +352,29 @@ $(function(){
 
 </script>
 
-<!--END: FOR THE VIDEO AT THE TOP-->
+
+
+
+<!--FOR THE HIDE/REVEAL FAQ-->
+
+
+<script type="text/javascript" language="JavaScript"><!--
+function HideContent(d) {
+document.getElementById(d).style.display = "none";
+}
+function ShowContent(d) {
+document.getElementById(d).style.display = "block";
+}
+function ReverseDisplay(d) {
+if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
+else { document.getElementById(d).style.display = "none"; }
+}
+</script>
+
+
+
+
+
 
 </body>
 </html>
