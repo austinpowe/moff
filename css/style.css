@@ -38,7 +38,7 @@ ul {
 }
 
 .static-intro {
-  background: url('../assets/mobile-header.jpg');
+  background: url('../assets/mobile-header.png');
   background-size: cover;
   padding: 5% 10% 5% 10%;
   position: relative;
@@ -344,9 +344,10 @@ sup {
 }
 
 .centercolumn .friend-images {
-	width: 15%;
+	width: 10%;
 	vertical-align: middle;
-	margin: 4% 2% 2% 2%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
 }
 
 /* FOOTER SECTION */
