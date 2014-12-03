@@ -368,9 +368,21 @@ else { document.getElementById(d).style.display = "none"; }
 }
 </script>
 
+<!--REDIRECTS JAPANESE USERS TO JAPANESE SITE-->
 
-
-
+<script type="text/javascript">
+    if(document.all){
+	    if (
+		(navigator.browserLanguage || navigator.language || navigator.userLanguage).substr(0,2) === 'ja') {
+			location.href = "http://jp.moff.mobi";
+	    }
+	} else{
+	    if (
+		(navigator.browserLanguage || navigator.language || navigator.userLanguage).substr(0,2) === 'ja') {
+			location.href = "http://jp.moff.mobi";
+	    }
+	}
+</script>
 
 
 </body>
