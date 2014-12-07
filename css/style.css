@@ -27,6 +27,7 @@ ul {
 	margin-top: 30%;
 	margin-left: 11%;
 	width: 50%;
+	z-index: 100;
 }
 
 .wrapper h2 {
