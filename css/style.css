@@ -153,7 +153,6 @@ video {
 .faq-slide {
 	background-color: #ea5404;
 	background-size: cover;
-	padding: 5% 5% 5% 5%;
 }
 
 
@@ -279,6 +278,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 3em;
+	margin-bottom: 4em;
 	left: 0;
 	right: 0;
 	border-radius: 10px;
