@@ -577,11 +577,12 @@ sup {
 
     	.quickbuy {
     		margin-top: 2em;
+    		text-align: center;
     	}
 
     	.quickbuy a {
     		text-decoration: none;
-    		font-size: 22px;
+    		font-size: 28px;
     		color: #fff;
     	}
 
