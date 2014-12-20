@@ -6,7 +6,7 @@ body {
 
 h1 {
 	font-weight: 700;
-	font-size: 52px;
+	font-size: 42px;
 	line-height: 1em;
 }
 
@@ -24,14 +24,14 @@ ul {
 
 .wrapper {
 	position: absolute;
-	margin-top: 30%;
+	margin-top: 27%;
 	margin-left: 11%;
 	width: 60%;
 	z-index: 100;
 }
 
 .wrapper h2 {
-	margin-top: 3em;
+	margin-top: 3.5em;
 }
 
 .top-movie {
@@ -91,7 +91,7 @@ video {
   text-transform: uppercase;
   text-align: left;
   padding: 12px;
-  margin-top: 11em;
+  margin-top: 12.5em;
   position: absolute;
   text-decoration: none;
 }
@@ -210,6 +210,7 @@ video {
 	margin-left: 6%;
 	display: inline-block;
 	float: left;
+	margin-top: 4em;
 }
 
 .product-slide {
@@ -226,6 +227,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
   background-size: cover;
   padding: 5% 5% 5% 5%;
+}
+
+.focus-here {
+	border: 5px solid #ea5404;
+	padding: 5% 5% 0% 5%;
+	border-radius: 40px;
+	background-color: rgba(0.76,0.76,0.76,0.76);
 }
 
 .product-slide .fiddypercentcolumn h1, ul{
@@ -273,7 +281,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .product-buybutton {
-	border: solid 2px #fff;
 	width: 30%;
 	margin-left: auto;
 	margin-right: auto;
@@ -576,9 +583,12 @@ sup {
     		text-decoration: none;
     		font-size: 22px;
     		color: #fff;
-    		background-color: #ea5404;
-    		padding: 5px;
-    		border-radius: 4px;
+    	}
+
+    	.quickbuy {
+    		background-color: #2c66a5;
+    		padding: 10px;
+    		border-radius: 6px;
     	}
 
 		.fiddypercentcolumn {
