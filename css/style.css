@@ -15,6 +15,11 @@ h2 {
 	font-size: 24px;
 }
 
+.arrow {
+	height: inherit;
+
+}
+
 ul {
 	list-style-type: disc;
 	margin-bottom: 1em;
@@ -580,15 +585,19 @@ sup {
     		text-align: center;
     	}
 
-    	.quickbuy a {
+    	.quickbuy p {
     		text-decoration: none;
     		font-size: 28px;
     		color: #fff;
     	}
 
+    	a {
+    		text-decoration: none;
+    	}
+
     	.quickbuy {
     		background-color: #2c66a5;
-    		padding: 10px;
+    		padding: 30px 10px 30px 10px;
     		border-radius: 6px;
     	}
 
